@@ -1,0 +1,23 @@
+{% extends "base.html.twig" %}
+
+{% block title %}Hôtel | Manager{% endblock %}
+
+{% block body %}
+    <br>
+    <div class="container-fluid">
+        <div class="alert alert-success" role="alert">
+            <center>À quel employé voulez-vous attribuer la chambre <b>{{ numero }}</b></center>
+        </div>
+    </div>
+    <div class="container-sm">
+        <center>
+            <ul class="list-group">
+                {% for select in employeList %}
+                    <li class="list-group-item">
+                        <a href="{{ numero }}/{{ select.id }}">{{ select.username }}</a>
+                    </li>
+                {% endfor %}
+            </ul>
+        </center>
+    </div>
+{% endblock %}

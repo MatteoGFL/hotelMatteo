@@ -1,0 +1,17 @@
+
+--------------------------- Manager ---------------------------
+
+En tant que manager vous pouvez voir les chambres qui sont à nettoyer et les attribuer aux employés.
+
+
+--------------------------- Réceptionniste ---------------------------
+
+En tant que réceptionniste vous pouvez :
+- Voir les chambres occupées et donner l'ordre du nettoyage de ces chambres.
+- Voir les chambres libres et les réserver.
+
+
+--------------------------- Employé ---------------------------
+
+En tant qu'employé vous serez alerté des chambres à nettoyer.
+Vous pourrez déclarer la chambre comme libre après votre travail.
