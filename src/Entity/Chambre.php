@@ -47,6 +47,13 @@ class Chambre
         return $this->numero;
     }
 
+    public function setNumero(int $numero): self
+    {
+        $this->numero = $numero;
+
+        return $this;
+    }
+
     public function getEtage(): ?int
     {
         return $this->etage;
